@@ -1,5 +1,6 @@
+
 import React, { useState, useRef, useEffect } from 'react';
-import type { Category } from '../types';
+import type { Category } from '../types.ts';
 
 interface ExpenseCategoryPanelProps {
   category: Category;
